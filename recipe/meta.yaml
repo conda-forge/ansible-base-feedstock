@@ -1,5 +1,5 @@
 {% set name = "ansible-base" %}
-{% set version = "2.10.14" %}
+{% set version = "2.10.15" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 800c4646c58a5897f71f2230167db5626a196deba208f0ef4560a183ffd9dfda
+  sha256: 4478818ba821dba143e123568ec5d317dc8fa4ac6e1513f7a501734e52976bff
 
 build:
   number: 0
