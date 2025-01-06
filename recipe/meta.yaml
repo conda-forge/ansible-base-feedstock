@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools >=66.1.0,<=72.1.0
   run:
     - cryptography
     - jinja2
